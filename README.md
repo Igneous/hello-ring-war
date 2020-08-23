@@ -20,7 +20,7 @@ Visit http://tomcat.server.hostname:8080/test/ (or wherever port your tomcat ins
            DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
                    Version 2, December 2004
  
-Copyright (C) 2004 Sam Hocevar <sam@hocevar.net>
+Copyright (C) 2020 Bucky Wolfe <bucky@usleep.consulting>
 
 Everyone is permitted to copy and distribute verbatim or modified
 copies of this license document, and changing it is allowed as long
