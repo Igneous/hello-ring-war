@@ -1,22 +1,33 @@
 # hello-ring
 
-A Clojure library designed to ... well, that part is up to you.
+Simple ring hello world app
+
+## Build & Deploy
+
+```
+lein deps
+lein ring uberwar test.war
+sudo cp target/test.war /var/lib/tomcat9/webapps/ #(or whatever your war dir is)
+#probably restart tomcat
+```
 
 ## Usage
 
-FIXME
+Visit http://tomcat.server.hostname:8080/test/ (or wherever port your tomcat install is configured to listen on)
 
 ## License
+```
+           DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
+                   Version 2, December 2004
+ 
+Copyright (C) 2004 Sam Hocevar <sam@hocevar.net>
 
-Copyright © 2020 FIXME
+Everyone is permitted to copy and distribute verbatim or modified
+copies of this license document, and changing it is allowed as long
+as the name is changed.
+ 
+           DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
+  TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
 
-This program and the accompanying materials are made available under the
-terms of the Eclipse Public License 2.0 which is available at
-http://www.eclipse.org/legal/epl-2.0.
-
-This Source Code may also be made available under the following Secondary
-Licenses when the conditions for such availability set forth in the Eclipse
-Public License, v. 2.0 are satisfied: GNU General Public License as published by
-the Free Software Foundation, either version 2 of the License, or (at your
-option) any later version, with the GNU Classpath Exception which is available
-at https://www.gnu.org/software/classpath/license.html.
+ 0. You just DO WHAT THE FUCK YOU WANT TO.
+ ```
